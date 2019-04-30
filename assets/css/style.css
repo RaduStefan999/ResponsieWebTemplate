@@ -197,3 +197,25 @@ h1 {
 }
 
 /* Contact */
+
+#contact {
+    margin-top: 100px;
+    width: 50%;
+}
+
+#form-area input {
+    border-color: black;
+    border-width: 4px;
+}
+
+#form-area textarea {
+    border-color: black;
+    border-width: 4px;
+}
+
+#send-buton {
+    background-color: black;
+    border: none;
+    padding: none;
+    width: 38vw;
+}
