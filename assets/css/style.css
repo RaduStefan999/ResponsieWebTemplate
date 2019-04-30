@@ -1,0 +1,199 @@
+/* Main Atributes */
+
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: RaleWey-Medium;
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: RaleWey-Light;
+    src: url(../fonts/Raleway-Light.ttf);
+}
+
+#main-frame {
+    font-family: RaleWey-Light;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 30px;
+}
+
+.more {
+    color: rgb(0, 0, 0);
+}
+
+/* Navigation */
+
+#navbarButtons {
+    float: right;
+}
+
+#back_to_top {
+    position: fixed;
+    z-index: 10;
+    right: 20px;
+    bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+/* Main Image Presentation */
+
+#main-presentation {
+    margin-top: 40px;
+    width: 80vw;
+    height: 60vh;
+    background-image: url("../images/house.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-presentation > div > div {
+    height: 60vh;
+}
+
+#middle {
+    border-left: solid;
+    border-right: solid;
+    border-color: #adadad;
+    border-width: 2px;
+}
+
+.action-buttons {
+    background-color: rgb(255, 255, 255);
+    color: rgb(32, 32, 32);
+    font-size: 3vw;
+    border: 2px;
+    border-radius: 1px;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 10px;
+}
+
+#button_one {
+    position: absolute;
+    bottom: 15vh;
+    right: 0px;
+}
+
+#button_two {
+    position: absolute;
+    bottom: 25vh;
+    left: 0px;
+}
+
+#button_three {
+    position: absolute;
+    bottom: 8vh;
+    left: 0px;
+}
+
+/* About */
+
+#about {
+    margin-top: 10vh;
+    width: 80%
+}
+
+
+/* Approach */
+
+#approach {
+    margin-top: 25vh;
+    width: 80%
+}
+
+#approach-images {
+    margin-top: 14vh;
+}
+
+#approach-images h4 {
+    width: 300px;
+    margin: 30px auto;
+}
+
+/* Featured */
+
+#featured {
+    margin-top: 100px;
+}
+
+.project {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60vw;
+    height: 60vh;
+    margin: 50px auto 0;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 1;
+    width: 60vw;
+    height: 60vh;
+    background-color: hsla(0, 0%, 0%, 0.7);
+}
+
+.decoration-position-1 {
+    position: absolute;
+    bottom: 0px;
+    left: 5vw;
+}
+
+.decoration-position-2 {
+    position: absolute;
+    bottom: 0px;
+    right: 5vw;
+}
+
+/* Steps */
+
+#steps {
+    margin-top: 100px;
+    width: 80%;
+}
+
+.steps-image {
+    width: 200px;
+    height: 260px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* News */
+
+#news {
+    margin-top: 100px;
+    width: 80%;
+}
+
+.section-devider {
+    margin-left: -100vw;
+    width: 200vw;
+    height: 3px;
+    background-color: black;
+    z-index: 10;
+}
+
+.news-frames {
+    margin-top: 50px;
+}
+
+.news-info h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Contact */
